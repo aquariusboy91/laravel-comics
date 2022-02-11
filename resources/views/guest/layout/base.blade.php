@@ -11,12 +11,14 @@
   <div class="container">
      @include('guest.partials.header')
 
-    <!-- @yield('content')
+     @include('guest.partials.main')
 
-    @include('guest.partials.footer') -->
+     @yield('content')
+
+    @include('guest.partials.footer') 
   </div>
   
-  <!-- @yield('scripts') --> 
+  @yield('scripts') 
 
 </body>
 </html>

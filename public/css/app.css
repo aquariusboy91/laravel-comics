@@ -4,7 +4,7 @@
 }
 
 img {
-  width: 70px;
+  width: 50px;
 }
 
 ul {
@@ -18,5 +18,14 @@ a {
   text-decoration: none;
   color: black;
   font-size: 15px;
+}
+
+.main-top {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  height: 400px;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
