@@ -20,6 +20,12 @@ a {
   font-size: 15px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .main-top {
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   height: 400px;
@@ -27,5 +33,48 @@ a {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cards-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.container-cards {
+  flex-basis: calc(16.6666666667% - 2em);
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.container-cards img {
+  width: 70%;
+  height: 70%;
+}
+
+.container-cards span {
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  padding-top: 0.5em;
+}
+
+.container-cards h3 {
+  color: white;
+  width: 70%;
 }
 

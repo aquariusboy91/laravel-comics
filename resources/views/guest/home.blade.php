@@ -6,8 +6,15 @@
 @endsection
 
 @section('content')
-    @foreach ($comics as $item_comics)
-    <h2>{{ $item_comics['title'] }}</h2>
-    @endforeach
+ <main>
+    <div class="cards-cont">
+            @foreach ($comics as $item_comics)
+            <div class="container-cards">
+                <img src="{{$item_comics['thumb']}} alt="">
+                <h3 class="title">{{ $item_comics['series'] }}</h3>
+            </div>
+        @endforeach
+    </div>
+</main>
 
 @endsection
