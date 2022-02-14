@@ -3,6 +3,6 @@
 @section ('content')
 
 
-<h1>Personaggi</h1>
+<h1>personaggi</h1>
 
 @endsection

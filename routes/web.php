@@ -22,4 +22,19 @@ Route::get('/Characters', function () {
     return view('guest.Characters');
 })->name('Characters');
 
+Route::get('/comic/{id}', function ($id) {
+
+    $collection = collect(config('comics'));
+    $comic = $collection->where('id', $id);
+
+    $singleComic = '';
+    foreach ($comic as $value) {
+        $singleComic = $value;
+    }
+
+    return view('guest.comic',[
+        'comic' => $singleComic,
+    ]);
+})->name('comic');
+
 
