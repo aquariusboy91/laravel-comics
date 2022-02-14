@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-a {
+.container-h a {
   text-decoration: none;
   color: black;
   font-size: 15px;
@@ -41,6 +41,12 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.cards-cont a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 .title {

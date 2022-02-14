@@ -11,6 +11,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        
+    }
    }
 
    .title {
