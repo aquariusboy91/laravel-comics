@@ -18,5 +18,8 @@ Route::get('/', function () {
     return view('guest.home' , $data);
 });
 
+Route::get('/Characters', function () {
+    return view('guest.Characters');
+})->name('Characters');
 
 

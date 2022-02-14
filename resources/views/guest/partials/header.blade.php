@@ -3,7 +3,7 @@
         <nav>
             <ul>
                 <li><a href=""><img src="{{asset('img/dc-logo.png')}}" alt=""></a></li>
-                <li><a href="">Characters</a></li>
+                <li><a href="{{ route('Characters') }}">Characters</a></li>
                 <li><a href="">Comics</a></li>
                 <li><a href="">Movies</a></li>
                 <li><a href="">Tv</a></li>
