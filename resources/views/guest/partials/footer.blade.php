@@ -60,4 +60,20 @@
             
             
         </div>
+        <div class="subfooter">
+            <div>
+                <a href=""><span class="sign-up">SiGN UP NOW</span></a>
+            </div>
+            <div>
+                <ul class ="social">
+                    <li>FOLLOW US</li>
+                    <li><a href=""><img src="../../../img/footer-facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="../../../img/footer-periscope.png" alt=""></a></li>
+                    <li><a href=""><img src="../../../img/footer-pinterest.png" alt=""></a></li>
+                    <li><a href=""><img src="../../../img/footer-twitter.png" alt=""></a></li>
+                    <li><a href=""><img src="../../../img/footer-youtube.png" alt=""></a></li>
+                </ul>
+            </div>
+
+        </div>
 </footer>
