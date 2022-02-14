@@ -3,11 +3,13 @@
   margin: 0 auto;
 }
 
-img {
+.container-h img {
   width: 50px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-ul {
+.container-h ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -78,7 +80,7 @@ main {
   width: 70%;
 }
 
-.jumbonav {
+.navmain {
   background-color: #0282F9;
   width: 100%;
   height: 10em;
@@ -86,28 +88,28 @@ main {
   justify-content: center;
 }
 
-ul {
+.list-main {
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
 }
 
-ul a {
+.list-main a {
   text-decoration: none;
 }
 
-ul li {
+.list-main li {
   padding: 2em;
   display: flex;
   align-items: center;
 }
 
-ul li img {
+.list-main li img {
   width: 40px;
 }
 
-ul li span {
+.list-main li span {
   color: white;
   font-size: 13px;
   margin-left: 0.5em;
@@ -115,5 +117,45 @@ ul li span {
 
 .shop {
   width: 28px;
+}
+
+.container-footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 25em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-footer ul {
+  list-style: none;
+  color: grey;
+  font-size: 12px;
+  padding-bottom: 1em;
+}
+
+.container-footer ul li span {
+  color: white;
+  margin-bottom: 2em;
+}
+
+.container-footer li {
+  line-height: 1.8em;
+}
+
+.container-footer ul li:first-child {
+  font-size: 22px;
+  padding-right: 1em;
+}
+
+.cont-list {
+  display: flex;
+}
+
+img {
+  width: 80%;
 }
 

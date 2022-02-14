@@ -15,8 +15,8 @@
             </div>
         @endforeach
     </div>
-    <div class="jumbonav">
-        <ul>
+    <div class="navmain">
+        <ul class="list-main">
             <a href="">
                 <li>
                      <img src="../../../img/buy-comics-digital-comics.png" alt="">
